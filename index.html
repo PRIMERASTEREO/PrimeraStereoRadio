@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es-VE">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="theme-color" content="#0066FF">
+<title>PRIMERA STEREO</title>
+<meta name="description" content="PRIMERA STEREO, Radio Online, Miranda, Venezuela" />
+<meta name="keywords" content="Música Las 24 Horas, Publicidad" />
+<meta name="URL" content="https://primerastereo2025.netlify.app/" />
+<meta property="og:locale" content="es_ES">
+<meta property="og:title" content="Música Las 24 Horas, Publicidad" />
+<meta property="og:description" content="PRIMERA STEREO, Radio Online, Miranda, Venezuela" />
+<meta name="description" content="Música Las 24 Horas, Publicidad" />
+<meta property="og:site_name" content="Música Las 24 Horas, Publicidad" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://primerastereo2025.netlify.app/" />
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="">
+<meta name="twitter:image" content="Primera4-2.png" />
+<meta property="og:image" content="Primera4-2.png" />
+<meta name="thumbnail" content="Primera4-2.png" />
+<link rel="icon" href="Primera4-2.png" sizes="32x32" />
+<link rel="icon" href="Primera4-2.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="Primera4-2.png" />
+<link href="https://fonts.googleapis.com/css5?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&amp;display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="lunaradio.js"></script>
+<style>
+html,body{font-family:"Open Sans",sans-serif;height:100%;margin:0;display:flex;flex-direction:column;color:#0153a4}a{text-decoration:none;color:rgba(255,255,255,1)}a:hover{color:rgba(255,255,255,1);text-decoration:none}#header{position:fixed;top:0;left:0;z-index:100;transition:all .5s;overflow-y:auto;background:rgba(255,255,255,0);padding:20px 20px 0}.nav-menu *{margin:0;padding:0;list-style:none}.nav-menu > ul > li{position:relative;white-space:nowrap}.nav-menu a{display:flex;align-items:center;color:#fff;padding-left:18px;margin-bottom:8px;transition:.3s;font-size:15px;border-radius:50px;background:#0066FF;height:46px;width:100%;overflow:hidden;transition:.3s}.nav-menu a i{font-size:16px}.nav-menu a span{padding:0 5px 0 7px;color:#fff}.nav-menu li:hover > a{color:blue;background:#00c3ff}.nav-menu li:hover > a span{color:#fff}.mobile-nav-toggle{position:fixed;right:15px;top:15px;z-index:99;border:0;background:none;font-size:24px;transition:all .4s;outline:none!important;line-height:1;cursor:pointer;text-align:right}.mobile-nav-toggle i{color:#fff}.mobile-nav-active{overflow:hidden}.mobile-nav-active #header{left:0}.mobile-nav-active .mobile-nav-toggle i{color:#fff}#player{margin:0 auto;width:100%;height:100%}.background_hora{width:196px;height:46px;background-color:#0066FF;position:absolute;right:20px;bottom:100px;border-radius:50px}#relogio{margin:0;position:absolute;top:50%;left:50%;margin-right:-50%;transform:translate(-50%,-50%);font-size:30px;font-family:"Poppins",sans-serif;color:#fff}.back-to-top{position:fixed;display:none;width:40px;height:40px;border-radius:50px;right:15px;bottom:15px;background:#fff;color:#fff;transition:display .5s ease-in-out;z-index:99999}.back-to-top i{font-size:24px;position:absolute;top:7px;left:8px}.back-to-top:hover{color:#fff;background:#023fba;transition:background .2s ease-in-out}@media (min-width: 992px){.mobile-nav-toggle{display:none}}@media (max-width: 991px){#header{width:auto;background:#fff;border-right:1px solid #e6e9ec;left:-300px;padding:20px 30px 100vh 10px}}@media only screen and (max-width: 768px){#player{width:100%;height:100%}.background_hora{display:none}#relogio{display:none}}
+</style>
+</head>
+
+
+<link rel="stylesheet" media="screen" href="styles.css">
+
+
+<script src="jquery-3.2.1.min.js" type="text/javascript"></script>
+
+
+<body>
+
+<button type="button" class="mobile-nav-toggle d-xl-true"><i class="icofont-navigation-menu"></i></button>
+
+<div style="height:100%">
+
+<div id="player"></div>
+
+<div id="preloader"></div>
+
+<!-- CUSTOM SCRIPTS -->
+	<script src="lunaradio-animado.js"></script>
+		<!-- CUSTOM SCRIPTS -->
+	<script>
+	window.addEventListener("load", function () {
+		$("#player").lunaradio({
+			userinterface: "big", 
+			backgroundcolor: "rgba(0,0,0,0.5)",
+			fontcolor: "#ffffff",
+			hightlightcolor: "#023fba", 
+			fontname: "", 
+			googlefont: "", 
+			fontratio: "0.4", 
+			radioname: "PRIMERA STEREO | Radio Online", 
+			scroll: "true", 
+			coverimage: "Primera4-2.png",
+			onlycoverimage: "false", //true para mostrar solo logo radio
+			coverstyle: "animated",
+			usevisualizer: "real", 
+			visualizertype: "7",
+			multicolorvisualizer: "true",
+			color1: "#e66c35",
+			color2: "#d04345",
+			color3: "#85a752",
+			color4: "#067dcc",
+			visualizeropacity: "3.0",			
+			itunestoken: "1000lIPN", 
+			metadatatechnic: "/fallback", 
+			ownmetadataurl: "", 
+			corsproxy: "",
+			usestreamcorsproxy: "false",
+			streamurl: "https://stream.zeno.fm/u6cbawcdkcxvv", 
+			streamtype: "zeno", 
+			radiozeno: "u6cbawcdkcxvv",
+			icecastmountpoint: "u6cbawcdkcxvv",
+			idzeno: "u6cbawcdkcxvv", 
+			metadatainterval: "5000", 
+			volume: "70",
+			autoplay: "true",
+			debug: "false"
+		});
+	})
+	</script>
+
+<header id="header">
+<nav class="nav-menu">
+<ul>
+<li><a target="_blank" href="https://www.appcreator24.com/app903548-fpnj0d"><i class="fab fa-google-play"></i> <span>Nuestra APP</span></a></li>
+<li><a target="_blank" href="https://api.whatsapp.com/send?phone=+5804127097429&text=Hola%20quiero%20información%20%20de%20la%20publicidad"><i class="fa fa-bullhorn"></i><span>Publicidad</span></a></li>
+<li><a target="_blank" href="https://www.facebook.com/PrimeraStereoRadio"><i class="fab fa-facebook-square" alt="Facebook"></i>
+<span>Facebook</span></a></li>
+<li><a target="_blank" href="https://www.instagram.com/Primera.Stereo/"><i class="fab fa-instagram-square" alt="Instagram"></i>
+<span>Instagram</span></a></li>
+<li><a href="https://api.whatsapp.com/send?phone=+5804127097429&text=Hola%20estoy%20escuchando%20la%20radio"_blank"><i class="fab fa-whatsapp-square" alt="Whatsapp"></i>
+<span>Whatsapp</span></a></li>
+<li><a target="_blank" href="https://www.tiktok.com/@primerastereo"><i class="fab fa-tiktok"></i><span>Tiktok</span></a></li>
+<li><a target="_blank" href="https://soundcloud.com/primerastereo"><i class="fab fa-soundcloud"></i><span>SoundCloud</span></a></li>
+<li><a target="_blank" href="https://t.me/PrimeraStereo"><i class="fab fa-telegram"></i><span>Telegram</span></a></li>
+<li><a target="_blank" href="https://api.whatsapp.com/send?phone=+5804127097429&text=Hola%20quiero%20información%20%20de%20la%20publicidad"><i class="fas fa-cloud-download-alt"></i><span>Publicidad</span></a></li>
+</ul>
+</nav>
+</header>
+
+
+
+
+
+
+<div class="background_hora"><div id="relogio">3:00:05</div></div>
+<script>
+function reloj() {
+let elementoID = document.getElementById('relogio');
+let horalocal = new Date().toLocaleTimeString('es-VE');
+elementoID.innerHTML = horalocal;
+}
+setInterval(reloj, 1000);
+</script>
+</div>
+
+
+<footer style="display:grid;align-content:end">
+<div style="background-color:#000000;color:#ffffff;text-align:center;padding:10px"> 
+&copy; Copyright 2010 - 2025 <span id="year"></span> | <a href="https://pr1merastereo.netlify.app" target="_blank">PRIMERA STEREO Y Copilot</a> 
+</div>
+</footer>
+
+<script>
+$(".mobile-nav-toggle").click(function(){
+$("body").toggleClass("mobile-nav-active");
+$(".mobile-nav-toggle i").toggleClass("fa-bars fa-times");
+});
+</script>
+
+</body>
+</html>
