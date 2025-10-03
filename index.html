@@ -52,7 +52,7 @@ html,body{font-family:"Open Sans",sans-serif;height:100%;margin:0;display:flex;f
 <div id="preloader"></div>
 
 <!-- CUSTOM SCRIPTS -->
-	<script src="lunaradio-animado.js"></script>
+	<script src="lunaradio.js"></script>
 		<!-- CUSTOM SCRIPTS -->
 	<script>
 	window.addEventListener("load", function () {
@@ -61,11 +61,15 @@ html,body{font-family:"Open Sans",sans-serif;height:100%;margin:0;display:flex;f
 			backgroundcolor: "rgba(0,0,0,0.5)",
 			fontcolor: "#ffffff",
 			hightlightcolor: "#023fba", 
-			fontname: "", 
-			googlefont: "", 
+			fontname: "Roboto", 
+			googlefont: "Roboto", 
 			fontratio: "0.4", 
 			radioname: "PRIMERA STEREO | Radio Online", 
-			scroll: "true", 
+			scroll: "true",
+			scrollradioname: "left",
+			scrolltitle: "left",
+			scrollradionamespeed: "0.25",
+			scrolltitlespeed: "0.25",
 			coverimage: "NewLogo-Primera.png",
 			onlycoverimage: "false", //true para mostrar solo logo radio
 			coverstyle: "animated",
@@ -76,17 +80,18 @@ html,body{font-family:"Open Sans",sans-serif;height:100%;margin:0;display:flex;f
 			color2: "#d04345",
 			color3: "#85a752",
 			color4: "#067dcc",
-			visualizeropacity: "3.0",			
+			visualizeropacity: "5.0",
+			visualizerghost: "5.0",
+			visualizerblur: "5",
+			visualizerghostblur: "5",
 			itunestoken: "1000lIPN", 
-			metadatatechnic: "/fallback", 
+			metadatatechnic: "corsproxy", 
 			ownmetadataurl: "", 
 			corsproxy: "",
-			usestreamcorsproxy: "false",
-			streamurl: "https://stream.zeno.fm/u6cbawcdkcxvv", 
-			streamtype: "zeno", 
-			radiozeno: "u6cbawcdkcxvv",
-			icecastmountpoint: "u6cbawcdkcxvv",
-			idzeno: "u6cbawcdkcxvv", 
+			usestreamcorsproxy: "true",
+			streamurl: "https://usa7.fastcast4u.com/proxy/primerastereo", 
+			streamtype: "shoutcast2", 
+			displayliveicon: "true",
 			metadatainterval: "5000", 
 			volume: "70",
 			autoplay: "true",
@@ -146,3 +151,4 @@ $(".mobile-nav-toggle i").toggleClass("fa-bars fa-times");
 
 </body>
 </html>
+
